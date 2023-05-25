@@ -1,0 +1,16 @@
+package br.com.Gabriel.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.Gabriel.entities.cambio;
+
+@RestController
+@RequestMapping("cambio-service")
+public class CambioController {
+
+	public cambio getCambio() {
+		return
+	}
+	
+}

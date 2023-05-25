@@ -1,0 +1,5 @@
+spring.application.name=greeting-service
+greeting-service.greeting=Cia
+greeting-service.default-value=Mondo
+#MOSTRAR TODOS OS ENDPOINTS NO ACTUATOR :
+management.endpoints.web.exposure.include=*

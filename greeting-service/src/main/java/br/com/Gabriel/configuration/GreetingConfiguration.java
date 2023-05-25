@@ -1,0 +1,24 @@
+package br.com.Gabriel.configuration;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Component
+@ConfigurationProperties("greeting-service")
+public class GreetingConfiguration {
+
+	private String greeting;
+	private String defaultValue;
+	
+	public GreetingConfiguration() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	
+}
